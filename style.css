@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #F25C05;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 130px;
+}
+
+.logo img {
+    border-radius: 100%;
+    width: 70px;
+    height: 65px;
+    transition-duration: 0.5s;
+}
+
+.logo img:hover,
+.hero a:hover {
+    transform: translateY(-3px);
+    transition-duration: 0.2s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #F29F05;
+}
+
+.login img {
+    width: 40px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
+
+.login img:hover {
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.3s;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url("img/landinpage.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding: 0 220px;
+}
+
+.hero div {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    border-radius: 50px;
+}
+
+.hero h2 {
+    color: #F25C05;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.hero p {
+    color: rgb(45, 45, 45);
+    font-size: 15px;
+    text-align: justify;
+}
+
+.hero a {
+    background-color: #F25C05;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.features div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+}
+
+.features h2 {
+    color: #F25C05;
+    font-size: 32px;
+}
+
+#icon {
+    width: 75px;
+    height: 75px;
+    transition-duration: 0.2s;
+}
+
+.features ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.features li {
+    color: rgb(45, 45, 45);
+    font-size: 22px;
+    padding: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.2s;
+}
+
+#icon:hover,
+.icon:hover,
+.redes img:hover {
+    transform: translateY(-3px);
+    transition-duration: 0.2s;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 30px;
+    gap: 50px 0;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    transition-duration: 0.3s;
+}
+
+.card h2 {
+    color: #F25C05;
+    font-size: 20px;
+}
+
+.card p {
+    color: rgb(45, 45, 45);
+    font-size: 17px;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+.card img {
+    width: 200px;
+    height: 175px;
+    border-radius: 100%;
+    transition-duration: 0.3s;
+}
+
+.card img:hover {
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.3s;
+}
+
+footer {
+    background-color: #F25C05;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    transition-duration: 0.2;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+}
+
+.copy {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
