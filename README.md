@@ -33,5 +33,5 @@ ReceitasKing/
 
 ![Página inicial do ReceitasKing](pagina-inicial.png)
 
-#👨‍💻 Autor
+# 👨‍💻 Autor
 Desenvolvido por Nicolas Moreira Lima do Nascimento
